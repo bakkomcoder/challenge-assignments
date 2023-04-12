@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+}
+
+.nav-bar {
+  background-color: yellow;
+  padding: 40px 15px;
+}
+
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+}
+
+.search-bar input {
+  border: none;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.layout {
+  padding: 0px 25px;
+  margin-top: 40px;
+}
+
+.content__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 23px 0px;
+}
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+h3 {
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.content img {
+  border-radius: 10px;
+  width: 70px;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.daily-ani {
+  display: flex;
+}
+
+.daily-ani img {
+  height: 180px;
+  width: 120px;
+}
+
+.daily-ani__detail,
+.popular-author__detail {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.daily-ani__tag,
+.daily-ani__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.daily-ani__tag span {
+  display: flex;
+  padding: 10px;
+  margin: 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
+.daily-ani__rank i {
+  /* margin: 0px 5px; */
+  font-size: 13px;
+}
+
+.daily-ani__icon-bookmark {
+  border-radius: 50%;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.daily-ani__icon-booking {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.top-ani {
+  display: flex;
+}
+.top-ani__list {
+  margin: 0px 15px;
+}
+.top-ani__list img {
+  margin-bottom: 10px;
+}
+
+.top-ani__rank {
+  font-size: 10px;
+  text-align: center;
+}
+
+.content:nth-child(3) img {
+  height: 160px;
+  width: 120px;
+}
+
+.popular-author {
+  display: flex;
+}
+
+.popular-author__detail p {
+  font-size: 13px;
+  opacity: 0.4;
+  padding: 5px;
+}
